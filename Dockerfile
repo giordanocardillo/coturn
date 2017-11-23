@@ -1,4 +1,4 @@
-FROM debian:jessie
+FROM phusion/baseimage
 MAINTAINER Giordano Cardillo
 RUN set -e; \
     apt-get update; \
